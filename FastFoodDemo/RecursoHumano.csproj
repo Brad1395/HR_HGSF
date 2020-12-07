@@ -96,10 +96,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ConvenioEnf.resx</DependentUpon>
     </Compile>
-    <Compile Include="DB.cs">
+    <Compile Include="DB\DB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DB.Designer.cs">
+    <Compile Include="DB\DB.Designer.cs">
       <DependentUpon>DB.cs</DependentUpon>
     </Compile>
     <Compile Include="Controles\FirstCustomControl.cs">
@@ -264,7 +264,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ConvenioEnf1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="DB.resx">
+    <EmbeddedResource Include="DB\DB.resx">
       <DependentUpon>DB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controles\FirstCustomControl.resx">
