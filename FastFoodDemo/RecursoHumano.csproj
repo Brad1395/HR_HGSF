@@ -164,22 +164,22 @@
     <Compile Include="AgregarEmpleado.Designer.cs">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Permisos3.cs">
+    <Compile Include="Permisos\Permisos3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Permisos3.Designer.cs">
+    <Compile Include="Permisos\Permisos3.Designer.cs">
       <DependentUpon>Permisos3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Permisos2.cs">
+    <Compile Include="Permisos\Permisos2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Permisos2.Designer.cs">
+    <Compile Include="Permisos\Permisos2.Designer.cs">
       <DependentUpon>Permisos2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Permiso.cs">
+    <Compile Include="Permisos\Permiso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Permiso.Designer.cs">
+    <Compile Include="Permisos\Permiso.Designer.cs">
       <DependentUpon>Permiso.cs</DependentUpon>
     </Compile>
     <Compile Include="Incapacidad.cs">
@@ -292,13 +292,13 @@
     <EmbeddedResource Include="AgregarEmpleado.resx">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Permisos3.resx">
+    <EmbeddedResource Include="Permisos\Permisos3.resx">
       <DependentUpon>Permisos3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Permisos2.resx">
+    <EmbeddedResource Include="Permisos\Permisos2.resx">
       <DependentUpon>Permisos2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Permiso.resx">
+    <EmbeddedResource Include="Permisos\Permiso.resx">
       <DependentUpon>Permiso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Incapacidad.resx">
@@ -368,6 +368,7 @@
   <ItemGroup>
     <Content Include="hgsfmini_pMB_icon.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
