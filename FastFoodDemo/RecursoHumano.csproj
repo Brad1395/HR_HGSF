@@ -85,13 +85,13 @@
     </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="connect.cs" />
-    <Compile Include="ConvenioEnf.cs">
+    <Compile Include="Convenios\ConvenioEnf.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConvenioEnf.Designer.cs">
+    <Compile Include="Convenios\ConvenioEnf.Designer.cs">
       <DependentUpon>ConvenioEnf.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConvenioEnf1.Designer.cs">
+    <Compile Include="Convenios\ConvenioEnf1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ConvenioEnf.resx</DependentUpon>
@@ -136,10 +136,10 @@
     <Compile Include="Incapacidades\Incapacidad2.Designer.cs">
       <DependentUpon>Incapacidad2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Convenio.cs">
+    <Compile Include="Convenios\Convenio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Convenio.Designer.cs">
+    <Compile Include="Convenios\Convenio.Designer.cs">
       <DependentUpon>Convenio.cs</DependentUpon>
     </Compile>
     <Compile Include="Incapacidades\Incapacidad31.Designer.cs">
@@ -259,7 +259,7 @@
     <EmbeddedResource Include="Empleados\EditarEmpleado .resx">
       <DependentUpon>EditarEmpleado .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConvenioEnf.resx">
+    <EmbeddedResource Include="Convenios\ConvenioEnf.resx">
       <DependentUpon>ConvenioEnf.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ConvenioEnf1.Designer.cs</LastGenOutput>
@@ -283,7 +283,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Incapacidad21.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Convenio.resx">
+    <EmbeddedResource Include="Convenios\Convenio.resx">
       <DependentUpon>Convenio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="passDB.resx">
