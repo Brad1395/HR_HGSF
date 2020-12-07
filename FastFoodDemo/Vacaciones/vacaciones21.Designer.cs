@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RecursoHumano {
+namespace RecursoHumano.Vacaciones {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace RecursoHumano {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RecursoHumano.vacaciones2", typeof(vacaciones2).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RecursoHumano.Vacaciones.vacaciones2", typeof(vacaciones2).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

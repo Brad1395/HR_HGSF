@@ -233,27 +233,27 @@
     <Compile Include="thirdcustomcontrol.Designer.cs">
       <DependentUpon>thirdcustomcontrol.cs</DependentUpon>
     </Compile>
-    <Compile Include="vacaciones21.Designer.cs">
+    <Compile Include="Vacaciones\vacaciones21.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>vacaciones2.resx</DependentUpon>
     </Compile>
-    <Compile Include="vacaciones3.cs">
+    <Compile Include="Vacaciones\vacaciones3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vacaciones3.Designer.cs">
+    <Compile Include="Vacaciones\vacaciones3.Designer.cs">
       <DependentUpon>vacaciones3.cs</DependentUpon>
     </Compile>
-    <Compile Include="vacaciones2.cs">
+    <Compile Include="Vacaciones\vacaciones2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vacaciones2.Designer.cs">
+    <Compile Include="Vacaciones\vacaciones2.Designer.cs">
       <DependentUpon>vacaciones2.cs</DependentUpon>
     </Compile>
-    <Compile Include="vacaciones.cs">
+    <Compile Include="Vacaciones\vacaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vacaciones.Designer.cs">
+    <Compile Include="Vacaciones\vacaciones.Designer.cs">
       <DependentUpon>vacaciones.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="EditarEmpleado .resx">
@@ -340,15 +340,15 @@
     <EmbeddedResource Include="thirdcustomcontrol.resx">
       <DependentUpon>thirdcustomcontrol.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vacaciones3.resx">
+    <EmbeddedResource Include="Vacaciones\vacaciones3.resx">
       <DependentUpon>vacaciones3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vacaciones2.resx">
+    <EmbeddedResource Include="Vacaciones\vacaciones2.resx">
       <DependentUpon>vacaciones2.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>vacaciones21.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="vacaciones.resx">
+    <EmbeddedResource Include="Vacaciones\vacaciones.resx">
       <DependentUpon>vacaciones.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
