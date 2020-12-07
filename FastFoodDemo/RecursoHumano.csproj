@@ -77,10 +77,10 @@
     <Reference Include="TelerikCommon, Version=2019.2.618.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EditarEmpleado .cs">
+    <Compile Include="Empleados\EditarEmpleado .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditarEmpleado .Designer.cs">
+    <Compile Include="Empleados\EditarEmpleado .Designer.cs">
       <DependentUpon>EditarEmpleado .cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion.cs" />
@@ -158,10 +158,10 @@
     <Compile Include="passDB.Designer.cs">
       <DependentUpon>passDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarEmpleado.cs">
+    <Compile Include="Empleados\AgregarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarEmpleado.Designer.cs">
+    <Compile Include="Empleados\AgregarEmpleado.Designer.cs">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Permisos\Permisos3.cs">
@@ -256,7 +256,7 @@
     <Compile Include="Vacaciones\vacaciones.Designer.cs">
       <DependentUpon>vacaciones.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EditarEmpleado .resx">
+    <EmbeddedResource Include="Empleados\EditarEmpleado .resx">
       <DependentUpon>EditarEmpleado .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConvenioEnf.resx">
@@ -289,7 +289,7 @@
     <EmbeddedResource Include="passDB.resx">
       <DependentUpon>passDB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarEmpleado.resx">
+    <EmbeddedResource Include="Empleados\AgregarEmpleado.resx">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Permisos\Permisos3.resx">
