@@ -102,10 +102,10 @@
     <Compile Include="DB.Designer.cs">
       <DependentUpon>DB.cs</DependentUpon>
     </Compile>
-    <Compile Include="FirstCustomControl.cs">
+    <Compile Include="Controles\FirstCustomControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FirstCustomControl.Designer.cs">
+    <Compile Include="Controles\FirstCustomControl.Designer.cs">
       <DependentUpon>FirstCustomControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -147,7 +147,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Incapacidad3.resx</DependentUpon>
     </Compile>
-    <Compile Include="MySecondCustmControl1.Designer.cs">
+    <Compile Include="Controles\MySecondCustmControl1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MySecondCustmControl.resx</DependentUpon>
@@ -189,10 +189,10 @@
       <DependentUpon>Incapacidad.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimiento.cs" />
-    <Compile Include="MySecondCustmControl.cs">
+    <Compile Include="Controles\MySecondCustmControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MySecondCustmControl.Designer.cs">
+    <Compile Include="Controles\MySecondCustmControl.Designer.cs">
       <DependentUpon>MySecondCustmControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -203,16 +203,16 @@
     <Compile Include="Reporte.Designer.cs">
       <DependentUpon>Reporte.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectorEdit.cs">
+    <Compile Include="Selectores\SelectorEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectorEdit.Designer.cs">
+    <Compile Include="Selectores\SelectorEdit.Designer.cs">
       <DependentUpon>SelectorEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectorUser.cs">
+    <Compile Include="Selectores\SelectorUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectorUser.Designer.cs">
+    <Compile Include="Selectores\SelectorUser.Designer.cs">
       <DependentUpon>SelectorUser.cs</DependentUpon>
     </Compile>
     <Compile Include="SelectorEnf.cs">
@@ -221,16 +221,16 @@
     <Compile Include="SelectorEnf.Designer.cs">
       <DependentUpon>SelectorEnf.cs</DependentUpon>
     </Compile>
-    <Compile Include="Selector.cs">
+    <Compile Include="Selectores\Selector.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Selector.Designer.cs">
+    <Compile Include="Selectores\Selector.Designer.cs">
       <DependentUpon>Selector.cs</DependentUpon>
     </Compile>
-    <Compile Include="thirdcustomcontrol.cs">
+    <Compile Include="Controles\thirdcustomcontrol.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="thirdcustomcontrol.Designer.cs">
+    <Compile Include="Controles\thirdcustomcontrol.Designer.cs">
       <DependentUpon>thirdcustomcontrol.cs</DependentUpon>
     </Compile>
     <Compile Include="Vacaciones\vacaciones21.Designer.cs">
@@ -267,7 +267,7 @@
     <EmbeddedResource Include="DB.resx">
       <DependentUpon>DB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FirstCustomControl.resx">
+    <EmbeddedResource Include="Controles\FirstCustomControl.resx">
       <DependentUpon>FirstCustomControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -306,7 +306,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Incapacidad1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="MySecondCustmControl.resx">
+    <EmbeddedResource Include="Controles\MySecondCustmControl.resx">
       <DependentUpon>MySecondCustmControl.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>MySecondCustmControl1.Designer.cs</LastGenOutput>
@@ -325,19 +325,19 @@
     <EmbeddedResource Include="Reporte.resx">
       <DependentUpon>Reporte.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectorEdit.resx">
+    <EmbeddedResource Include="Selectores\SelectorEdit.resx">
       <DependentUpon>SelectorEdit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectorUser.resx">
+    <EmbeddedResource Include="Selectores\SelectorUser.resx">
       <DependentUpon>SelectorUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectorEnf.resx">
       <DependentUpon>SelectorEnf.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Selector.resx">
+    <EmbeddedResource Include="Selectores\Selector.resx">
       <DependentUpon>Selector.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="thirdcustomcontrol.resx">
+    <EmbeddedResource Include="Controles\thirdcustomcontrol.resx">
       <DependentUpon>thirdcustomcontrol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vacaciones\vacaciones3.resx">
@@ -368,9 +368,7 @@
   <ItemGroup>
     <Content Include="hgsfmini_pMB_icon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Selectores\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
