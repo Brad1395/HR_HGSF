@@ -114,26 +114,26 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad1.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Incapacidad.resx</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad21.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad21.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Incapacidad2.resx</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad3.cs">
+    <Compile Include="Incapacidades\Incapacidad3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Incapacidad3.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad3.Designer.cs">
       <DependentUpon>Incapacidad3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad2.cs">
+    <Compile Include="Incapacidades\Incapacidad2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Incapacidad2.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad2.Designer.cs">
       <DependentUpon>Incapacidad2.cs</DependentUpon>
     </Compile>
     <Compile Include="Convenio.cs">
@@ -142,7 +142,7 @@
     <Compile Include="Convenio.Designer.cs">
       <DependentUpon>Convenio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad31.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad31.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Incapacidad3.resx</DependentUpon>
@@ -182,10 +182,10 @@
     <Compile Include="Permisos\Permiso.Designer.cs">
       <DependentUpon>Permiso.cs</DependentUpon>
     </Compile>
-    <Compile Include="Incapacidad.cs">
+    <Compile Include="Incapacidades\Incapacidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Incapacidad.Designer.cs">
+    <Compile Include="Incapacidades\Incapacidad.Designer.cs">
       <DependentUpon>Incapacidad.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimiento.cs" />
@@ -273,12 +273,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Incapacidad3.resx">
+    <EmbeddedResource Include="Incapacidades\Incapacidad3.resx">
       <DependentUpon>Incapacidad3.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Incapacidad31.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Incapacidad2.resx">
+    <EmbeddedResource Include="Incapacidades\Incapacidad2.resx">
       <DependentUpon>Incapacidad2.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Incapacidad21.Designer.cs</LastGenOutput>
@@ -301,7 +301,7 @@
     <EmbeddedResource Include="Permisos\Permiso.resx">
       <DependentUpon>Permiso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Incapacidad.resx">
+    <EmbeddedResource Include="Incapacidades\Incapacidad.resx">
       <DependentUpon>Incapacidad.cs</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Incapacidad1.Designer.cs</LastGenOutput>
