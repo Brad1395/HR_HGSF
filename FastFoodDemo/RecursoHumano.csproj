@@ -215,10 +215,10 @@
     <Compile Include="Selectores\SelectorUser.Designer.cs">
       <DependentUpon>SelectorUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectorEnf.cs">
+    <Compile Include="Selectores\SelectorEnf.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectorEnf.Designer.cs">
+    <Compile Include="Selectores\SelectorEnf.Designer.cs">
       <DependentUpon>SelectorEnf.cs</DependentUpon>
     </Compile>
     <Compile Include="Selectores\Selector.cs">
@@ -331,7 +331,7 @@
     <EmbeddedResource Include="Selectores\SelectorUser.resx">
       <DependentUpon>SelectorUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectorEnf.resx">
+    <EmbeddedResource Include="Selectores\SelectorEnf.resx">
       <DependentUpon>SelectorEnf.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Selectores\Selector.resx">
