@@ -87,3 +87,5 @@ C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\obj\Release\FastFoodDemo
 C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\obj\Release\FastFoodDemo.SelectorEdit.resources
 C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\obj\Release\FastFoodDemo.EditarEmpleado.resources
 C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\obj\Release\RecursoHumano.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\bin\Release\Dapper.dll
+C:\Users\Pablo\Desktop\HR_HGSF-new\HR_HGSF\FastFoodDemo\bin\Release\Dapper.xml
