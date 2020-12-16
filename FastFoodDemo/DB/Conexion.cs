@@ -16,11 +16,15 @@ namespace FastFoodDemo
             string x = cn.cadenaconexion;
             SqlConnection Con = new SqlConnection(x);
 
-
             return Con;
-
-
-
         }
+
+        public static string CnnVal()
+        {
+            connect cn = new connect();
+            string x = cn.cadenaconexion;
+            return x;
+        }
+
     }
 }

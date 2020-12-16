@@ -67,7 +67,7 @@ namespace FastFoodDemo
 
         private static bool VerificarConexion()
         {
-            using (SqlConnection connection = Conexion.generarConexion())
+            using (/*SqlConnection connection = Conexion.generarConexion()*/IDbConnection connection = new System.Data.SqlClient.SqlConnection(Conexion.CnnVal()))
             {
                 try
                 {
