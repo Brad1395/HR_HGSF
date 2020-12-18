@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dapper;
+using RecursoHumano.Models;
 
 namespace FastFoodDemo
 {
     public partial class Selector : MetroFramework.Forms.MetroForm
     {
         private FirstCustomControl frm1;
+        List<Empleado> empleados = new List<Empleado>();//Dapper
         public Selector(FirstCustomControl frst)
         {
             InitializeComponent();
@@ -21,9 +24,16 @@ namespace FastFoodDemo
 
         private void Selector_Load(object sender, EventArgs e)
         {
-            Mantenimiento man = new Mantenimiento();
-            string query = "SELECT [Nombre] FROM [Empleado] where TipoEmpleado = 1 order by Nombre";
-            man.cargarDGgeneral(gridSel, query);
+            
+
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Conexion.CnnVal()))
+            {
+                empleados = connection.Query<Empleado>("SELECT * FROM [Empleado] where TipoEmpleado = 1 order by Nombre").ToList<Empleado>();
+                var x = empleados
+                    .Select(y => Tuple.Create(y.Nombre))
+                    .ToList();
+                gridSel.DataSource = x;
+            }
 
             DataGridViewColumn column = gridSel.Columns[0];
             column.Width = 175;

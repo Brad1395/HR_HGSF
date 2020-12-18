@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dapper;
+using RecursoHumano.Models;
 
 namespace FastFoodDemo
 {
@@ -199,6 +201,16 @@ namespace FastFoodDemo
 
                 sqlReader.Close();
             }
+
+            //List<Empleado> empleados = new List<Empleado>();
+
+            //using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Conexion.CnnVal()))
+            //{
+            //    empleados = connection.Query<Empleado>("SELECT [Nombre] FROM [Empleado] where TipoEmpleado = 1 order by Nombre").ToList();
+            //    cb.DataSource = empleados;
+            //    cb.DisplayMember = "NombreEmpleado";
+            //}
+
         }
 
         public void llenarEnf(ComboBox cb)

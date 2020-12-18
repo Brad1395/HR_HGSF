@@ -14,5 +14,13 @@ namespace RecursoHumano.Models
         public int? TipoEmpleado { get; set; }
         public string TipoContrato { get; set; }
         public string TieneProfilactica { get; set; }
+
+        public string NombreEmpleado
+        {
+            get
+            {
+                return $"{Nombre}";
+            }
+        }
     }
 }
