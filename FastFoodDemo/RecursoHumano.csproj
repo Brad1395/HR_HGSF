@@ -168,6 +168,11 @@
     <Compile Include="Empleados\AgregarEmpleado.Designer.cs">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Incapacidad.cs" />
+    <Compile Include="Models\Permiso.cs" />
+    <Compile Include="Models\TipoEmpleado.cs" />
+    <Compile Include="Models\Vacaciones.cs" />
     <Compile Include="Permisos\Permisos3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -372,9 +377,7 @@
   <ItemGroup>
     <Content Include="hgsfmini_pMB_icon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
